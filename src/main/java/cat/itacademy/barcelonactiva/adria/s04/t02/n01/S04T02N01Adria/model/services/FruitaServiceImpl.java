@@ -1,7 +1,7 @@
-package cat.itacademy.barcelonactiva.adria.s04.t02.n01.S04T02N01Adria.service;
+package cat.itacademy.barcelonactiva.adria.s04.t02.n01.S04T02N01Adria.model.services;
 
-import cat.itacademy.barcelonactiva.adria.s04.t02.n01.S04T02N01Adria.entity.Fruita;
-import cat.itacademy.barcelonactiva.adria.s04.t02.n01.S04T02N01Adria.repository.FruitaRepository;
+import cat.itacademy.barcelonactiva.adria.s04.t02.n01.S04T02N01Adria.model.domain.Fruita;
+import cat.itacademy.barcelonactiva.adria.s04.t02.n01.S04T02N01Adria.model.repository.FruitaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

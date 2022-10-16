@@ -1,4 +1,4 @@
-package cat.itacademy.barcelonactiva.adria.s04.t02.n01.S04T02N01Adria.entity;
+package cat.itacademy.barcelonactiva.adria.s04.t02.n01.S04T02N01Adria.model.domain;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -17,9 +17,7 @@ public class Fruita implements Serializable {
     @Column
     private int quantityKilos;
 
-    public Fruita(){
-
-    }
+    public Fruita(){}
 
     public Fruita(String name, int quantityKilos){
         this.name = name;
